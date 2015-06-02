@@ -1,0 +1,15 @@
+.idea
+.idea_modules
+.classpath
+.project
+.settings
+.cache
+.settings/*
+.DS_Store
+RUNNING_PID
+logs
+bin
+dist
+project/project
+project/target
+target
