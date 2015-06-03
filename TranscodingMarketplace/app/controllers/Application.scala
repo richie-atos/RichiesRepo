@@ -10,7 +10,7 @@ class Application extends Controller {
   }
 
   def testMethod() = Action {
-    Ok(views.html.index("My test output."))
+    Ok(views.html.index("My test 3 output."))
   }
     
 }
