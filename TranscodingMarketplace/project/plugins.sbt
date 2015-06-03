@@ -5,6 +5,9 @@ resolvers += "sonatype-releases" at "https://oss.sonatype.org/content/repositori
 // The Play plugin
 addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.4.0")
 
+// Eclipse plugin
+addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "3.0.0")
+
 // Scalastyle plugin
 addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "0.6.0")
 
