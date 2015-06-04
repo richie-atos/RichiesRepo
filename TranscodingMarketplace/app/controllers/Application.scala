@@ -5,7 +5,14 @@ import play.api.mvc._
 
 class Application extends Controller {
 
+  val myObj:String = "";
+  
   def index() = Action {
+    if(myObj == "")
+    {
+      println("sdfsdf");
+    }
+    
     Ok(views.html.index("Your new application is ready."))
   }
 
