@@ -6,7 +6,7 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
 @SuiteClasses(
-{ApplicationSpec.class })
+{ApplicationSpec.class})
 public class IntegrationAllTests
 {
 
