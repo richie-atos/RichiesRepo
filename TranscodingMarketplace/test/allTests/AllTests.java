@@ -9,7 +9,7 @@ import controllers.ControllerTests;
 
 @RunWith(Suite.class)
 @SuiteClasses(
-{IntegrationAlltests.class})
+{IntegrationAlltests.class, ControllerTests.class})
 public class AllTests
 {
 
